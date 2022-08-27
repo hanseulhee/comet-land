@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://comet-land-blog.vercel.app</loc>
+    <loc>https://www.seulheehan.com/</loc>
   </url>
 
   <url>
-    <loc>https://comet-land-blog.vercel.app/bar</loc>
+    <loc>https://www.seulheehan.com//bookrest</loc>
   </url>
   <url>
-    <loc>https://comet-land-blog.vercel.app/foo</loc>
+    <loc>https://www.seulheehan.com//bookrestTheend</loc>
   </url>
   <url>
-    <loc>https://comet-land-blog.vercel.app/how-to-start</loc>
+    <loc>https://www.seulheehan.com//details</loc>
   </url>
   <url>
-    <loc>https://comet-land-blog.vercel.app/kbar-support</loc>
+    <loc>https://www.seulheehan.com//htmlDom</loc>
   </url>
   <url>
-    <loc>https://comet-land-blog.vercel.app/markdown</loc>
+    <loc>https://www.seulheehan.com//kakaoMap</loc>
+  </url>
+  <url>
+    <loc>https://www.seulheehan.com//onsuyumyumi</loc>
+  </url>
+  <url>
+    <loc>https://www.seulheehan.com//signup</loc>
+  </url>
+  <url>
+    <loc>https://www.seulheehan.com//slide</loc>
+  </url>
+  <url>
+    <loc>https://www.seulheehan.com//autoComplete</loc>
   </url>
 
   <url>
-    <loc>https://comet-land-blog.vercel.app/category/Bar</loc>
+    <loc>https://www.seulheehan.com//Project</loc>
   </url>
   <url>
-    <loc>https://comet-land-blog.vercel.app/category/Foo</loc>
-  </url>
-  <url>
-    <loc>https://comet-land-blog.vercel.app/category/Guide</loc>
+    <loc>https://www.seulheehan.com//React</loc>
   </url>
 </urlset>

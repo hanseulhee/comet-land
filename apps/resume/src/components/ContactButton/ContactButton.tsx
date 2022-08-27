@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from '@emotion/styled';
 import { Button as NextButton, config } from '@nextui-org/react';
 import { useMediaQuery } from 'core';
@@ -24,8 +25,8 @@ const Div = styled.div`
   right: 2rem;
 
   @media ${config.media.xsMax} {
-    bottom: 1rem;
-    right: 1.25rem;
+    bottom: 0.5rem;
+    right: 0.75rem;
   }
 `;
 

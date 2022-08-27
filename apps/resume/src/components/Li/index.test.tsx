@@ -1,3 +1,4 @@
+import React from 'react';
 import { NextUITheme } from '@nextui-org/react';
 import { render } from '@testing-library/react';
 

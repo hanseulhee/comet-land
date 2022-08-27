@@ -5,7 +5,7 @@ import { KBarToggleButton, ThemeSwitch } from 'core';
 
 import { blogName } from '../../../_config';
 
-export function PostHeader() {
+function PostHeader() {
   const { theme } = useTheme();
 
   return (
@@ -23,20 +23,21 @@ export function PostHeader() {
   );
 }
 
+export default PostHeader;
+
 const Header = styled.header`
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2.25rem;
-  word-break: break-word;
 `;
 
 const H3 = styled(Text)`
   margin: 0;
-
   font-size: 2rem;
   font-weight: bold;
+  line-height: 2rem;
 `;
 
 const ButtonWrapper = styled.div`

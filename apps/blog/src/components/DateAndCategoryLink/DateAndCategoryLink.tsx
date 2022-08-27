@@ -1,3 +1,4 @@
+import React from 'react';
 import NextLink from 'next/link';
 import { Link } from '@nextui-org/react';
 
@@ -23,5 +24,4 @@ function DateAndCategoryLink({ date, category }: Props) {
     </>
   );
 }
-
 export default DateAndCategoryLink;

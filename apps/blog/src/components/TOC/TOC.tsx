@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import styled from '@emotion/styled';
 import { Link, NextUITheme, useTheme } from '@nextui-org/react';
@@ -69,7 +69,7 @@ function useScrollSpy({ ids, options }: HookProps) {
 
     observer.current = new IntersectionObserver(entries => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
+        if (entry?.isIntersecting) {
           setActiveId(entry.target.getAttribute('id'));
         }
       });

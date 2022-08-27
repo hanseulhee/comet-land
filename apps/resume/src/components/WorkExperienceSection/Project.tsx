@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from '@emotion/styled';
 import { NextUITheme, useTheme } from '@nextui-org/react';
 
@@ -57,5 +58,4 @@ const TechSpan = styled.span<{ theme: NextUITheme | undefined }>`
   background-color: ${({ theme }) => theme.colors.accents1.value};
   border-radius: 32px;
   font-size: 0.75rem;
-  transition: background-color 0.4s, color 0.3s;
 `;

@@ -1,45 +1,36 @@
 {
-  "title": "Skills",
+  "title": "기술",
   "list": [
     {
-      "name": "Soft skill",
-      "descriptions": ["I like to talk"]
-    },
-    {
-      "name": "HTML/CSS",
+      "name": "Frontend",
       "descriptions": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestias.",
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam harum, nihil quidem ducimus explicabo soluta odio."
+        "JavaScript ES6, TypeScript",
+        "React.js",
+        "Styled-Components, Sass, Emotion, Bootstrap"
       ]
     },
+
     {
-      "name": "JavaScript",
+      "name": "Backend",
       "descriptions": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestias.",
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "descriptions": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestias.",
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam harum, nihil quidem ducimus explicabo soluta odio ut voluptatem praesentium."
+        "Python",
+        "Django"
       ]
     },
     {
       "name": "Dev Ops",
       "descriptions": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestias.",
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+        "Heroku",
+        "Vercel",
+        "Github Pages"
       ]
     },
     {
-      "name": "ETC",
+      "name": "Collaboration",
       "descriptions": [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestias.",
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+        "Slack, Notion, Trello",
+        "Github",
+        "Figma"
       ]
     }
   ]

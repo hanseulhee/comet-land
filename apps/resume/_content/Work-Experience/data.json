@@ -1,93 +1,91 @@
 {
-  "title": "Work Experience",
+  "title": "프로젝트 경험",
   "list": [
     {
-      "name": "Foo company",
-      "position": "Web Developer",
-      "startDate": "2021.03",
+      "name": "성공회대학교",
+      "position": "소프트웨어공학",
+      "startDate": "2020.03",
       "endDate": "",
-      "description": "Foo company is social media company for every world",
+      "description": "2022년 3학년 재학중",
       "projects": [
         {
           "title": {
-            "text": "Foo Pay",
-            "githubLink": null,
-            "otherLink": null
+            "text": "성공회대학교 IT 경진대회",
+            "githubLink": "https://sharebookrest.herokuapp.com/",
+            "otherLink": "https://velog.io/@seulhyi/LIKELION-9th-%ED%95%B4%EC%BB%A4%ED%86%A4-BOOKREST"
           },
           "description": "Leading FE developers",
-          "startDate": "2022.01",
-          "endDate": "",
-          "which": ["leading fe developers", "foster SEO"],
-          "techStack": ["TypeScript", "React", "Recoil"]
+          "startDate": "2021.11.03",
+          "endDate": "2021.11.15",
+          "which": ["전공서적대여 서비스 'BOOKREST' 개발", "은상, 인기상 수상"],
+          "techStack": ["HTML", "CSS", "Django", "Heroku"]
         },
         {
           "title": {
-            "text": "Comet land",
-            "githubLink": "https://github.com/hyesungoh/comet-land",
-            "otherLink": "https://comet-land-blog.vercel.app"
-          },
-          "description": "Monorepo for blog and resume",
-          "startDate": "2021.6",
-          "endDate": "2021.12",
-          "which": ["construct monorepo with turborepo", "design with NextUI"],
-          "techStack": ["TypeScript", "React", "Next.js", "Turborepo", "NextUI", "Emotion"]
-        },
-        {
-          "title": {
-            "text": "Foo Eat",
-            "githubLink": null,
-            "otherLink": null
+            "text": "성공회대학교 SW 경진대회",
+            "githubLink": "https://github.com/S-CON-SKHU/S_CON_WEB",
+            "otherLink": "https://s-con.vercel.app/"
           },
           "description": "Leading FE developers",
-          "startDate": "2021.03",
-          "endDate": "2021.06",
-          "which": [
-            "develop comet-land",
-            "lorem lorem",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum iusto quasi alias provident quos perspiciatis modi dolores libero tenetur nam?"
-          ],
-          "techStack": null
+          "startDate": "2022.03.10",
+          "endDate": "2022.04.13",
+          "which": ["교내 경진대회를 위한 올인원 서비스 'S_CON' 개발", "1등, 인기상 수상"],
+          "techStack": ["React", "TypeScript", "Emotion", "Framer-motion", "Google analytics", "Vercel"]
         }
       ]
     },
     {
-      "name": "Bar company",
+      "name": "멋쟁이사자처럼",
       "position": "Web Developer",
       "startDate": "2020.03",
-      "endDate": "2021.03",
-      "description": "Bar company is very awesome",
+      "endDate": "2021.12",
+      "description": "",
       "projects": [
         {
           "title": {
-            "text": "Bar Pay",
-            "githubLink": null,
+            "text": "멋쟁이사자처럼 8기",
+            "githubLink": "https://github.com/Skhu-Likelion-8th",
             "otherLink": null
           },
-          "role": "FE Dev Leader",
-          "description": "Leading FE developers",
-          "startDate": "2020.08",
-          "endDate": "2021.03",
+          "description": "수강생",
+          "startDate": "2020.03",
+          "endDate": "2020.12",
+          "which": ["Django 학습"],
+          "techStack": ["Git", "UI&UX", "Django"]
+        },  {
+          "title": {
+            "text": "멋쟁이사자처럼 9기",
+            "githubLink": "https://github.com/SKHU-Likelion-9th/likeInformative_Lion",
+            "otherLink": null
+          },
+          "description": "운영진",
+          "startDate": "2021.03",
+          "endDate": "2021.12",
           "which": [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-            "Cum iusto quasi alias provident quos perspiciatis modi dolores libero tenetur nam?"
+            "Django 및 Markup 강의",
+            "전국 200여개의 대학교가 참가하는 전체 해커톤에서 상위 10팀 선발"
           ],
-          "techStack": ["TypeScript", "React", "Recoil"]
-        },
+          "techStack": ["JavaScript", "React", "Django"]
+        }
+      ]
+    }, {
+      "name": "개발자들",
+      "position": "Web Developer",
+      "startDate": "2022.03",
+      "endDate": "",
+      "description": "",
+      "projects": [
         {
           "title": {
-            "text": "Bar Play",
-            "githubLink": null,
+            "text": "개발자들",
+            "githubLink": "https://github.com/dogVelopers",
             "otherLink": null
           },
-          "role": "FE Dev Leader",
-          "description": "Leading FE developers",
-          "startDate": "2020.03",
-          "endDate": "2020.08",
-          "which": [
-            "perspiciatis modi dolores libero tenetur nam.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing."
-          ],
-          "techStack": ["TypeScript", "React", "Recoil"]
+          "description": "수강생",
+          "startDate": "2022.03",
+          "endDate": "",
+          "which": ["FE study"],
+          "techStack": ["React", "TypeScript", "Next.js"]
         }
       ]
     }
