@@ -1,0 +1,194 @@
+{
+  "title": "프로젝트 경험",
+  "list": [
+    {
+      "name": "Google developer student clubs",
+      "position": "Core Member",
+      "startDate": "2022.08",
+      "endDate": "",
+      "description": "Google로부터 개발과 리더십 능력을 키울 수 있도록 지원받는 프로그램입니다.",
+      "projects": [
+        {
+          "title": {
+            "text": "Core 활동",
+            "githubLink": "https://www.gdsc-skhu.com",
+            "otherLink": "https://github.com/GDSC-SKHU"
+          },
+          "description": "교내의 개발의 장이 될 수 있도록 활동하고 있습니다.",
+          "startDate": "2022.08",
+          "endDate": "",
+          "which": [
+            "동아리원을 대상으로 FrontEnd 파트를 운영하고 교육합니다.",
+            "커뮤니티의 비전, 방향, 원칙, 운영 방안을 계획하고 실천하고 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "온수역 맛집 소개 서비스",
+      "position": "현재 2탄으로 사용자 유입이 이루어지고 있습니다.",
+      "startDate": "2022.01",
+      "endDate": "",
+      "description": "온수역의 맛집을 소개하는 서비스입니다.",
+      "projects": [
+        {
+          "title": {
+            "text": "온수냠냠냠",
+            "githubLink": "https://github.com/hanseulhee/onsuYumYumYum",
+            "otherLink": "https://www.onsuyum.com/"
+          },
+          "description": "온수역 맛집 소개 서비스 2탄입니다.",
+          "startDate": "2022.04",
+          "endDate": "",
+          "which": [
+            "현재 운영중이며 사용자 유입이 이루어지고 있습니다.",
+            "Remark를 이용해 Markdown을 컴파일하였습니다.",
+            "Next.js의 'getStaticProps', 'getStaticPaths'를 이용해 SSG로써 구현하였습니다."
+          ],
+          "techStack": [
+            "Next.js",
+            "TypeScript",
+            "Emotion",
+            "Framer-motion",
+            "Lottie",
+            "Google analytics",
+            "Hotjar",
+            "Vercel"
+          ]
+        },
+        {
+          "title": {
+            "text": "온수냠냐미",
+            "githubLink": "https://github.com/hanseulhee/OnsuYumYumi",
+            "otherLink": "https://onsu-yum-yumi.vercel.app/"
+          },
+          "description": "온수역 맛집 소개 서비스 1탄입니다.",
+          "startDate": "2022.02",
+          "endDate": "",
+          "which": ["1인 프로젝트로써 개발하였습니다.", "홍보 후 한달 사용자가 1014명이라는 지표를 얻었습니다."],
+          "techStack": ["React", "TypeScript", "Emotion", "Lottie", "Google analytics", "Hotjar", "Vercel"]
+        }
+      ]
+    },
+    {
+      "name": "DogVelopers",
+      "position": "Web Developer",
+      "startDate": "2022.03",
+      "endDate": "",
+      "description": "교내 개발 동아리에서 수강생으로 활동하고 있습니다.",
+      "projects": [
+        {
+          "title": {
+            "text": "개발자들",
+            "githubLink": "https://github.com/dogVelopers",
+            "otherLink": null
+          },
+          "description": "",
+          "startDate": "2022.03",
+          "endDate": "",
+          "which": ["FrontEnd 스터디를 수강하고 있으며 이를 토대로 프로젝트를 진행하고 있습니다."],
+          "techStack": ["JavaScript", "TypeScript", "React", "Next.js"]
+        }
+      ]
+    },
+
+    {
+      "name": "멋쟁이사자처럼",
+      "position": "Web Developer",
+      "startDate": "2020.03",
+      "endDate": "2021.12",
+      "description": "비전공자도 웹서비스를 만들어 꿈을 실현하는 것을 목표로 하는 멋쟁이 사자처럼에 2년간 활동하였습니다.",
+      "projects": [
+        {
+          "title": {
+            "text": "멋쟁이사자처럼 9기 운영진",
+            "githubLink": "https://github.com/SKHU-Likelion-9th",
+            "otherLink": null
+          },
+          "description": "비전공자, 입문자를 대상으로 9기에서 교육을 진행하였습니다.",
+          "startDate": "2021.03",
+          "endDate": "2021.12",
+          "which": [
+            "Django 및 Markup 등을 강의하였습니다.",
+            "전국 200여개의 대학교가 참가하는 전체 해커톤에서 상위 10팀 선발되었습니다."
+          ],
+          "techStack": ["JavaScript", "React", "Django"]
+        },
+        {
+          "title": {
+            "text": "멋쟁이사자처럼 9기 모집 서비스",
+            "githubLink": "https://github.com/SKHU-Likelion-9th/likeInformative_Lion",
+            "otherLink": "https://skhu-likelion-9th.github.io/likeInformative_Lion/"
+          },
+          "description": "동아리 홍보를 위한 모집 서비스를 개발하였습니다.",
+          "startDate": "2021.01",
+          "endDate": "2021.02",
+          "which": ["1인 프로젝트로써 개발하였습니다."],
+          "techStack": ["Html", "Css", "Github pages"]
+        },
+        {
+          "title": {
+            "text": "멋쟁이사자처럼 8기",
+            "githubLink": "https://github.com/Skhu-Likelion-8th",
+            "otherLink": null
+          },
+          "description": "",
+          "startDate": "2020.03",
+          "endDate": "2020.12",
+          "which": ["웹 기초 및 Django 등을 학습하였습니다."],
+          "techStack": ["Git", "UI&UX", "Django"]
+        }
+      ]
+    },
+    {
+      "name": "성공회대학교",
+      "position": "소프트웨어공학",
+      "startDate": "2020.03",
+      "endDate": "",
+      "description": "2022년 3학년 재학중",
+      "projects": [
+        {
+          "title": {
+            "text": "성공회대학교 SW 경진대회",
+            "githubLink": "https://github.com/S-CON-SKHU/S_CON_WEB",
+            "otherLink": "https://s-con.vercel.app/"
+          },
+          "description": "FrontEnd 리더로써 활동하였습니다.",
+          "startDate": "2022.03.10",
+          "endDate": "2022.04.13",
+          "which": [
+            "교내 경진대회를 위한 올인원 서비스 'S_CON'을 개발하였습니다.",
+            "사용자 모니터링과 피드백을 위해 Google analytics와 Hotjar를 적용하였습니다.",
+            "1등, 인기상을 수상하였습니다."
+          ],
+          "techStack": [
+            "React",
+            "TypeScript",
+            "Emotion",
+            "Framer-motion",
+            "Lottie",
+            "Google analytics",
+            "Hotjar",
+            "Vercel"
+          ]
+        },
+        {
+          "title": {
+            "text": "성공회대학교 IT 경진대회",
+            "githubLink": "https://sharebookrest.herokuapp.com/",
+            "otherLink": "https://www.seulheehan.com/bookrest"
+          },
+          "description": "FrontEnd 리더로써 활동하였습니다.",
+          "startDate": "2021.11.03",
+          "endDate": "2021.11.15",
+          "which": [
+            "전공 서적 대여 서비스 'BOOKREST'를 개발하였습니다.",
+            "2021년 성공회대에서 사용된 교내 서적을 볼 수 있습니다.",
+            "은상, 인기상을 수상하였습니다."
+          ],
+          "techStack": ["HTML", "CSS", "JavaScript", "Django", "Heroku"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "기술",
+  "list": [
+    {
+      "name": "Frontend",
+      "descriptions": [
+        "JavaScript ES6, TypeScript",
+        "React.js, Next.js",
+        "Styled-Components, Sass, Emotion, Stitches, Bootstrap"
+      ]
+    },
+
+    {
+      "name": "Backend",
+      "descriptions": ["Python", "Django"]
+    },
+    {
+      "name": "Dev Ops",
+      "descriptions": ["Heroku", "Vercel", "Github Pages"]
+    },
+    {
+      "name": "Collaboration",
+      "descriptions": ["Slack, Notion, Trello", "Github", "Figma"]
+    }
+  ]
+}
