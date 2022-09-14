@@ -77,7 +77,7 @@ console.log("are");
 
 JavaScript 엔진만으로는 비동기적으로 구현할 수 없어 브라우저에서 제공하는 Web API를 사용하여 비동기를 구현할 수 있습니다.
 
-이때 사용하는 것으로 Callback, Promise, Async await 등이 있는데 이에 관한 내용은 다음 게시글에서 소개할 예정입니다.
+이때 사용하는 것으로 Callback, Promise, Async await 등이 있는데 이에 관한 내용은 <a href="https://www.seulheehan.com/asynchronous">다음 게시글</a>에서 소개할 예정입니다.
 
 ## 마무리
 
