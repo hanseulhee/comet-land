@@ -9,7 +9,7 @@ category: 'JavaScript'
 
 ## 비동기
 
-비동기란 어떠한 요청을 보내면 그 요청이 끝날 때까지 기다리지 않고 다음 동작을 먼저 수행하는 JavaScript의 특성을 의미합니다.
+비동기란 어떠한 요청을 보내면 그 요청이 끝날 때까지 기다리지 않고 다음 동작을 먼저 수행하는 것을 의미합니다.
 
 더 자세한 내용은 이전 글 <a href="https://www.seulheehan.com/synchronous">'동기 비동기 파헤치기'</a>에서 보실 수 있습니다.
 
@@ -79,7 +79,7 @@ const test = new Promise((resolve, reject) => {
 })
 ```
 
-`new Promise()`로 Promise 객체를 새로 만들고 첫 번째 인자로 resolve, 두 번째 인자로 reject를 받습니다. (다른 이름으로 해도 됩니다!)
+`new Promise()`로 Promise 객체를 새로 만들고 첫 번째 인자로 resolve, 두 번째 인자로 reject를 받습니다.
 
 여기서 resolve는 비동기가 성공했을 경우, reject는 비동기가 실패했을 경우를 뜻합니다.
 
@@ -140,13 +140,13 @@ Promise를 생성하면 Pending (대기) 상태가 됩니다.
 
 [이미지 출처](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-## Async await
+## Async Await
 
-Async await는 JavaScript 비동기 처리 패턴 중 최근에 나온 문법입니다. (ES8)
+Async Await는 JavaScript 비동기 처리 패턴 중 최근에 나온 문법입니다. (ES8)
 
-Async await를 사용하면 더욱 직관적인 코드가 될 수 있습니다.
+Async Await를 사용하면 더욱 직관적인 코드가 될 수 있습니다.
 
-### Async await 사용법
+### Async Await 사용법
 
 function 앞에 async 키워드를 붙여 선언하고 비동기로 처리되는 부분 앞에 await 키워드를 붙이면 됩니다.
 
@@ -179,9 +179,23 @@ async function asyncCall() {
 asyncCall();
 ```
 
+**ES2022** 추가된 스펙을 말씀드리자면
+
+```JavaScript
+(async function () {
+  await test();
+})();
+```
+
+기존에는 익명함수를 만들어 했어야 하는데 이제는 Top Level에서도 가능합니다.
+
+```JavaScript
+await test();
+```
+
 **예외 처리**
 
-Async await에서 예외를 처리할 때는 `try catch`를 사용합니다.
+Async Await에서 예외를 처리할 때는 `try catch`를 사용합니다.
 
 Promise에서 catch 메소드를 사용했던 것처럼 async에서는 catch{}를 사용합니다.
 
@@ -200,7 +214,7 @@ async function test() {
 
 ## 마무리
 
-JavaScript의 비동기 처리에 사용되는 Callback, Promise, Async await에 대해 알아봤습니다.
+JavaScript의 비동기 처리에 사용되는 Callback, Promise, Async Await에 대해 알아봤습니다.
 
 설명하는 과정에서 혹시나 잘못된 부분이 있을 시 피드백 부탁드립니다. 🙇🏻‍♂️
 
