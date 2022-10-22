@@ -42,7 +42,7 @@ BOOKREST를 개발하면서 사소한 것도 얘기하고 기록하는 게 중�
 실제로 사용자에게 보여지는 웹이기에 크기, 색깔, 구성 등 정말 많이 고민하고 수정했던 것 같다.
 재밌었지만 디자인에 대해 내가 더 알았다면 더 좋은 페이지를 만들 수 있지 않았을까라는 아쉬움이 있다.
 
-나중에는 [Semantic Web](https://www.w3.org/standards/semanticweb/) 구성을 신경 쓰면서 개발 하고 싶다. div가 더 좋은 코드라고 생각했는데 공부를 하다 보니 Semantic Web 구성이 더 의미 있는 코드라는 걸 알게 되었다.
+나중에는 [Semantic Web](https://www.w3.org/standards/semanticweb/) 구성을 더욱 신경 쓰면서 개발 하고 싶다. Semantic Web 구성이 더 의미 있는 코드라는 걸 알게 되었고 이를 자세하게 사용해보고 싶다.
 
 ### Backend
 
@@ -63,55 +63,6 @@ Backend를 맡은 팀원 중 한 분이 Mac이고 Frontend는 모두 Window였�
 
 그래서 winvenv를 따로 만들어 Mac 가상환경과 3.9.6 버전으로 통일했더니 기능이 잘 작동했다.
 개발하기 전에 버전 얘기를 하는 걸 생각을 못 하고 있었는데 이번 기회에 많이 배울 수 있었다.
-
-### Git
-
-전에는 git에 대해 자세히 알지 못했다.
-개인 프로젝트를 주로 해서 git add, commit , push만 하고 다른 git 명령어들은 잘 몰랐다.
-
--브랜치 생성하기
-git branch 브랜치명
-
--git 2.23.0 버전 이후
-checkout이 아래 두 가지로 분리되었다.
-switch: 브랜치 변경
-restore: 변경사항 복원
-
--브랜치 이동하기
-git switch 브랜치명
-
--브랜치 생성과 동시에 이동하기
-git switch -c 브랜치명
-
--수정한 파일 되돌리기
-git restore 파일명
-
-~~git checkout 브랜치명
-git checkout -b 브랜치명~~
-
--브랜치 확인하기
-git branch
-
--클론 받은 곳에서 추가적으로 다운로드
-git pull origin 브랜치명
-
--커밋한 내용을 업로드
-git push origin 브랜치명
-
--브랜치 합치기
-git merge 브랜치명
-
--remote 갱신
-git remote update
-
--remote 브랜치 가져오기
-git checkout -t origin/원격에 있는 브랜치 명
-
--migrate 초기화
-find . -path "_/migrations/_.py" -not -name "**init**.py" -delete
-find . -path "_/migrations/_.pyc" -delete
-
-이번 BOOKREST를 통해 git이랑 정말 많이 친해졌다. 😋
 
 ### Pull Request
 
