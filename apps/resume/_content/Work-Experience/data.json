@@ -150,6 +150,27 @@
       "projects": [
         {
           "title": {
+            "text": "성공회대학교 IT 경진대회",
+            "githubLink": "https://github.com/hanseulhee/onsuYumYumYum",
+            "otherLink": "https://www.onsuyum.com/"
+          },
+          "description": "Frontend를 맡아 활동하였습니다.",
+          "startDate": "2022.10.18",
+          "endDate": "2022.11.14",
+          "which": ["온수역 맛집 소개 서비스 '온수냠냠냠'을 개발하였습니다.", "은상, 인기상을 수상하였습니다."],
+          "techStack": [
+            "Next.js",
+            "TypeScript",
+            "Emotion",
+            "Framer-motion",
+            "Lottie",
+            "Google analytics",
+            "Hotjar",
+            "Vercel"
+          ]
+        },
+        {
+          "title": {
             "text": "성공회대학교 SW 경진대회",
             "githubLink": "https://github.com/S-CON-SKHU/S_CON_WEB",
             "otherLink": "https://s-con.vercel.app/"
