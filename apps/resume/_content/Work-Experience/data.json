@@ -150,7 +150,7 @@
       "projects": [
         {
           "title": {
-            "text": "성공회대학교 IT 경진대회",
+            "text": "성공회대학교 제13회 IT 경진대회",
             "githubLink": "https://github.com/hanseulhee/onsuYumYumYum",
             "otherLink": "https://www.onsuyum.com/"
           },
@@ -171,7 +171,7 @@
         },
         {
           "title": {
-            "text": "성공회대학교 SW 경진대회",
+            "text": "성공회대학교 제14회 SW 경진대회",
             "githubLink": "https://github.com/S-CON-SKHU/S_CON_WEB",
             "otherLink": "https://s-con.vercel.app/"
           },
@@ -196,7 +196,7 @@
         },
         {
           "title": {
-            "text": "성공회대학교 IT 경진대회",
+            "text": "성공회대학교 제12회 IT 경진대회",
             "githubLink": "https://sharebookrest.herokuapp.com/",
             "otherLink": "https://www.seulheehan.com/bookrest"
           },
